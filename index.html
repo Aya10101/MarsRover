@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mars Rover</title>
+    <!-- style bootstrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- style.animated.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- font awsom -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+    <div id="particles-js" class="position-relative d-flex justify-content-center align-items-center text-center ">
+        <section class="position-absolute w-50 h-25  rounded-4 shadow-lg  animate__animated animate__fadeInDown bg-white bg-opacity-75">
+            <h1 class="colorText fw-bolder py-3 fs-1">Mars Rover Control</h1>
+            <p class="p-colorText fs-5">" Enter commands to control the Mars rover: "</p>
+            <div class="w-75 m-auto text-center d-flex justify-content-between">
+                <input type="text" class="form-control" id="commandInput" placeholder="Enter commands Example (FLFFFRFLB)...">
+                <button class="btn ms-1  mybtn d-flex align-items-center " id="Execute" >Execute<i class="fa-solid fa-circle-check ps-1"></i></button>
+            </div>
+
+            <p class="colorText pt-2 fs-5" id="roverPosition"></p>
+        </section>
+    </div>
+    <!-- javaScript particles -->
+    <script src="./js/particles.js"></script>
+    <!-- javaScript -->
+    <script src="./js/min.js"></script>
+</body>
+
+</html>
